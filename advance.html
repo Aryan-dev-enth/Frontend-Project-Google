@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left">
+            <div class="logo">
+                <a href="index.html"><img src="th-removebg-preview.png" alt="Google Logo"></a>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn">
+                <a href="index.html">Search</a>
+            </button>
+            <button class="btn">
+                <a href="image.html">Image Search</a>
+            </button>
+
+        </div>
+    </div>
+
+    <div class="advance-search">
+        <center>
+            <div class="search-bar">
+                <form action="https://www.google.com/advanced_search" method="GET">
+                    <div class="text-field">
+                        <label for="as_q">All these words:</label>
+                        <input type="text" id="as_q" name="as_q" placeholder="Keywords...">
+                    </div>
+                    <div class="text-field">
+                        <label for="as_epq">Exact phrase:</label>
+                        <input type="text" id="as_epq" name="as_epq" placeholder="Exact phrase...">
+                    </div>
+                    <div class="text-field">
+                        <label for="as_oq">Any of these words:</label>
+                        <input type="text" id="as_oq" name="as_oq" placeholder="Any words...">
+                    </div>
+                    <div class="text-field">
+                        <label for="as_sitesearch">Site or domain:</label>
+                        <input type="text" id="as_sitesearch" name="as_sitesearch" placeholder="Specific site or domain...">
+                    </div>
+                    <input class="btn" type="submit" value="Advanced Search">
+                </form>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
